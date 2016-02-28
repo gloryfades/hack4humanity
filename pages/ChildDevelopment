@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>okayNav Demo</title>
+    <link href='//fonts.googleapis.com/css?family=Roboto:700,400&subset=latin' rel='stylesheet' type='text/css'>
+
+
+
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css'>
+        <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="../dist/css/style.css">
+
+        <!-- Bootstrap -->
+    <link href="../dist/css/style.css" rel="stylesheet">
+     <!-- <link href="../dist/css/bootstrap.min.css" rel="stylesheet"> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+
+  </head>
+
+  <body>
+
+    <header id="header">
+  <a class="site-logo" href="index.html">
+           Child Development
+        </a>
+
+  <nav role="navigation" id="nav-main" class="okayNav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="pregnancy.html">Pregnancy</a></li>
+      <li><a href="post.html">Post</a></li>
+      <li><a href="dev.html">Development</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="about.html">About us</a></li>
+<!--       <li><a href="#">Testimonials</a></li>
+ -->    </ul>
+  </nav>
+
+
+</header>
+<!-- /header -->
+<br>
+<br>
+  <div class="container">
+    <h1>x </h1>
+    <p class="lead">The formative years of a child's life are crucial in shaping
+    their development and well-being.</p>
+  </div>
+        <div id="topMain">
+        <div class="row row-centered" id="mainContent">
+            <div class ="col-md-3 box col-centered" id="development">
+              <h2 class="header2">Behavior and Discipline</h2>
+            <img class="img-circle" src="http://f.tqn.com/y/discipline/1/W/w/0/-/-/aog74406.jpg">
+            <p class="pcontent">Every parent dreams of their kids growing up
+            happy, respectful, and respected by others as opposed to raising a
+            spoiled brat. One should utilize discipline to teach your child
+            which behaviors are acceptable. </p>
+
+            </div>
+            <div class ="col-md-3 box col-centered" id="post">
+              <h2 class="header2">Milestones</h2>
+            <img class="img-circle" src="http://images.watoday.com.au/2010/04/16/1331990/toddlermilestones420w-420x0.jpg">
+            <p class="pcontent">Children develop at their own pace, so it's
+            impossible to tell exactly when a child will learn a given skill.
+            However, the developmental milestones give a general idea of the
+            changes to expect as a child gets older. </p>
+
+
+          </div>
+            <div class ="col-md-3 box col-centered" id="child">
+              <h2 class="header2">Parenting Tips</h2>
+            <img class="img-circle" src="http://www.carltoti.com/wp-content/uploads/2013/10/keep-calm-and-parent-on-39.png">
+            <p class="pcontent">Children reach different stages as they develop
+            and certain skills need to be developed before others</p>
+          </div>
+        </div>
+      </div>
+
+
+
+<br>
+<br>
+<br>
+
+<br>
+
+<div class="text-picture text-picture--gray-bg">
+  <div class="container">
+    <div class="row row--flex">
+      <div class="col-sm-6 row--flex__col--center col-sm-push-6 text-picture__text">
+        <h2>Health and Nutrition </h2>
+        <p>
+          Now that you know you are pregnant or wish to become pregnant, it is
+         extremely important to care for yourself both mentally and physically. By
+         following the guidelines below, you'll have a better chance of having a
+         problem-free pregnancy and a healthy baby.
+        </p>
+        <a href="http://www.webmd.com/baby/guide/your-pre-pregnancy-to-do-list">Click here</a>
+      </div>
+      <div class="col-sm-6 col-sm-pull-6 text-picture__picture">
+        <img src="https://weightlossideass.com/wp-content/uploads/2015/11/71.jpg" alt="Image" class="img-responsive" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="text-picture text-picture--gray-bg">
+  <div class="container">
+    <div class="row row--flex">
+      <div class="col-sm-6 row--flex__col--center col-sm-push-6 text-picture__text">
+        <h2>Preparation and Medical Attention</h2>
+        <p>
+            Before entering labor, one should be prepared and familiarize
+        themselves with the cycles of pregnancy. The link below will give
+        specific details on the expected symptoms from week to week. Click
+      </p>
+
+         <a href="http://www.whattoexpect.com/pregnancy/landing-page.aspx?IID=hp_herocarousel"
+         title="Week of pregnancy">here</a>
+      <p>If you lack insurance, don't worry! There are numerous sites in the area
+         that help uninsured and low-income people by offering examinations at a
+         reduced price or for free.
+         <ul>
+           <li>
+             <a href="http://freeclinicdirectory.org/detail/alexian_clinic7_san_jose_ca.html"
+              title="Alexian Clinic">Alexian Clinic</a>
+           </li>
+
+           <li>
+             <a href="http://freeclinicdirectory.org/detail/alviso_health_center3_alviso_ca.html"
+              title="Alviso Health Center">Alviso Health Center</a>
+           </li>
+
+           <li>
+             <a href="http://freeclinicdirectory.org/detail/valley_specialty_center4_san_jose_ca.html"
+              title="Valley Speciality Center">Valley Speciality Center</a>
+           </li>
+
+           <li>
+             <a href="http://freeclinicdirectory.org/detail/city_team_ministries6_san_jose_ca.html"
+              title="Alexian Clinic">City Ministries</a>
+           </li>
+
+           <li>
+             <a href="http://freeclinicdirectory.org/detail/valley_health_center_gilroy8_gilroy_ca.html"
+              title="Valley Health Center">Valley Health Center</a>
+           </li>
+         </ul>
+        </p>
+      </div>
+      <div class="col-sm-6 col-sm-pull-6 text-picture__picture">
+        <img src="../wellness.jpg" alt="Image" class="img-responsive" />
+      </div>
+    </div>
+  </div>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdn.rawgit.com/VPenkov/okayNav/master/app/js/jquery.okayNav.js'></script>
+
+        <script src="../dist/js/index.js"></script>
+
+<div class="text-picture" style="background-color:#e0ebeb">
+  <div class="container">
+    <div class="row row--flex">
+      <div class="col-sm-6 row--flex__col--center text-picture__text">
+        <h2>Mental Wellness </h2>
+        <p>
+          Although pregnancy is a joyous miracle, it is not unusual that a woman
+        finds this transition in her life to be stressful. Some women may
+        develop mental health issues during the onset of pregnancy while others
+        who previously had problems are at high risk of becoming unwell after
+        childbirth according to the
+       </p>
+         <a href="http://www.dailyrxnews.com/mental-health-during-pregnancy-explored"
+         title="Mental Health and Pregnancy">Royal College of Psychiatrists</a>.
+        </p>
+      </div>
+      <div class="col-sm-6 text-picture__picture">
+        <img src="http://www.wibc.com/sites/g/files/exi441/f/article-images-featured/474166-259951.jpg" alt="Image" class="img-responsive" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  </body>
+</html>
