@@ -1,151 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-    	<meta charset="utf-8">
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    	<title>Baby Steps and Family Wellness</title>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>okayNav Demo</title>
+    <link href='//fonts.googleapis.com/css?family=Roboto:700,400&subset=latin' rel='stylesheet' type='text/css'>
+    
 
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css'>
+        <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../dist/css/style.css">
 
-    <!-- Bootstrap Select -->
-     <script src="../dist/js/bootstrap-select.js"></script>
-     <link rel="stylesheet" href="../dist/css/bootstrap-select.css">
-
-    <!-- Bootstrap -->
+        <!-- Bootstrap -->
     <link href="../dist/css/style.css" rel="stylesheet">
-    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+     <!-- <link href="../dist/css/bootstrap.min.css" rel="stylesheet"> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    
+    
+  </head>
+
+  <body>
+
+    <header id="header">
+  <a class="site-logo" href="index.html">
+           Baby Steps
+        </a>
+
+  <nav role="navigation" id="nav-main" class="okayNav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="pregnancy.html">Pregnancy</a></li>
+      <li><a href="post.html">Post</a></li>
+      <li><a href="dev.html">Development</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="about.html">About us</a></li>
+<!--       <li><a href="#">Testimonials</a></li>
+ -->    </ul>
+  </nav>
 
 
-		<link href='https://fonts.googleapis.com/css?family=Raleway:400,400italic,800,500,100,200italic' rel='stylesheet' type='text/css'>
+</header>
+<!-- /header -->
+<br>
+<br>
+  <div class="container">
+    <h1>Take Baby Steps</h1>
+    <p class="lead">A place for all mothers</p>
+  </div>
+        <div id="container">
+        <div class="row row-centered" id="mainContent">
+            <div class ="col-md-3 box col-centered" id="pregnancy">
+              <h2>Pregnancy</h2>
+            <img class="img-circle" src="../pregnant.jpg">
+            <p class="pcontent">You're pregnant find out what you need to do to get ready for parenthood</p>
+            <a href="pregnancy.html">Click here</a>
+            </div>
+            <div class ="col-md-3 box col-centered" id="post">
+              <h2>Post Pregnancy</h2>
+            <img class="img-circle" src="../baby.jpg">
+            <p class="pcontent">Congratulations, find out what your baby needs and tips on how to take care of your baby</p>
+            <a href="post.html">Click here</a>
 
-    <!-- Javascript functions using database -->
+          </div>
+            <div class ="col-md-3 box col-centered" id="child">
+              <h2>Child Development</h2>
+            <img class="img-circle" src="../growing.jpg">
+            <p class="pcontent">Your child is growing find out what your child needs as they develop and what you can expect from your child</p>
+            <a href="dev.html">Click here</a>
 
-    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
-    <script src="http://www.parsecdn.com/js/parse-1.6.5.min.js"></script>
-    <script src="../dist/js/index_advisor.js" type="text/javascript" ></script>
+          </div>
+        </div>
+      </div>
 
-		<style>
-			.navbar{
-				border:none;
-				height:3vh;
-			}
-			.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-				background-color: #a2dddc;
-				color: #a2dddc;
-			}
-			html,body{
-				background:url("../babysteps.jpg");
-				font-family: "Raleway";
-				padding:0;
-				margin:0;
-			}
-			.container-fluid{
-				width:100vw;
-				height:100vh;
-				background:rgba(255,255,255,.8);
-			}
-			#sumImg{
-				padding-left:5em;
-			}
-			.box{
-				/*padding: 25px;*/
-				border: 2px solid #67c7c5;
-				/*margin: 25px;*/
-				display:block;
-			}
-			.row-centered{
-				text-align:center;
-			}
-			.col-centered {
-				display:inline-block;
-				float:none;
-				/* reset the text-align */
-				text-align:left;
-				/* inline-block space fix */
-				margin-right:-4px;
-			}
-			.img-circle{
-				border-radius: 50%;
-				width:12em;
-				height:12em;
-				float:left;
-			}
-			.pcontent{
-				padding: .7em;
-			}
-		</style>
-  	</head>
 
-  	<body>
-	<div class="container-fluid">
-		<div class="row" >
-			<div class="col-md-12">
-			</div>
-		</div>
-		<nav class="navbar" style="background-color:#67c7c5;">
-			<div class="container">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-					<a class="navbar-brand navbar-right" href="#" style="color:#fff;"></a>
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="index_advisor.html" style="background-color:#a2dddc;">Pregnancy <span class="sr-only">(current)</span></a></li>
-							<li><a href="add.html" style="color:#fff;">Post Pregnancy</a></li>
-							<li><a href="delete.html" style="color:#fff;">Child Development</a></li>
-						</ul>
-						<!--<ul class="nav navbar-nav navbar-right">-->
-							<!--<li id="logout"><a style="color:#fff;">Log Out</a></li>-->
-						<!--</ul>-->
-				</div><!-- /.container-fluid -->
-				</div>
-			</nav>
-		<div id="summary">
-			<div class="row">
-				<div class="col-sm-8" id ="sumImg">
-					<img src="../sumimage.jpg" alt="landing image" style="width:30vw;height:30vh;">
 
-				</div>
-				<div class="col-sm-4">
+<br>
+<br>
+<br>
 
-				</div>
-			</div>
-		</div>
-		<br/>
-  		<div id="container">
-  			<div class="row row-centered" id="mainContent">
-  					<div class ="col-md-3 box col-centered" id="pregnancy">
-  						<h2>Pregnancy</h2>
-						<img class="img-circle" src="../pregnant.jpg">
-						<p class="pcontent">You're pregnant find out what you need to do to get ready for parenthood</p>
-						<a href="#prenancy">Click here</a>
-  					</div>
-  					<div class ="col-md-3 box col-centered" id="post">
-  						<h2>Post Pregnancy</h2>
-						<img class="img-circle" src="../baby.jpg">
-						<p class="pcontent">Congratulations, find out what your baby needs and tips on how to take care of your baby</p>
-						<a href="#prenancy">Click here</a>
+<br>
 
-					</div>
-  					<div class ="col-md-3 box col-centered" id="child">
-  						<h2>Child Development</h2>
-						<img class="img-circle" src="../growing.jpg">
-						<p class="pcontent">Your child is growing find out what your child needs as they develop and what you can expect from your child</p>
-						<a href="#prenancy">Click here</a>
+<div class="text-picture text-picture--gray-bg">
+  <div class="container">
+    <div class="row row--flex">
+      <div class="col-sm-6 row--flex__col--center col-sm-push-6 text-picture__text">
+        <h2>Center Aligned <small>with Flexbox</small></h2>
+        <p>
+          Ut sed congue massa. Cras eu turpis lacinia, ultricies ipsum fermentum, consectetur ipsum. Integer vestibulum a nunc noipsum. Integer vestibulum a nunc non facilisis.
+        </p>
+      </div>
+      <div class="col-sm-6 col-sm-pull-6 text-picture__picture">
+        <img src="../pregnant.jpg" alt="Image" class="img-responsive" />
+      </div>
+    </div>
+  </div>
+</div>
 
-					</div>
-  			</div>
-  		</div>
-		</div>
-  	</body>
+<div class="text-picture" style="background-color:#e0ebeb">
+  <div class="container">
+    <div class="row row--flex">
+      <div class="col-sm-6 row--flex__col--center text-picture__text">
+        <h2>Bottom Aligned <small>with Flexbox</small></h2>
+        <p>
+          Ut sed congue massa. Cras eu turpis lacinia, ultricies ipsum fermentum, consectetur ipsum. Integer vestibulum a nunc noipsum. Integer vestibulum a nunc non facilisis.
+        </p>
+      </div>
+      <div class="col-sm-6 text-picture__picture">
+        <img src="../baby.jpg" alt="Image" class="img-responsive" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="text-picture text-picture--gray-bg">
+  <div class="container">
+    <div class="row row--flex">
+      <div class="col-sm-6 row--flex__col--center col-sm-push-6 text-picture__text">
+        <h2>Bottom Aligned <small>with Flexbox</small></h2>
+        <p>
+          Ut sed congue massa. Cras eu turpis lacinia, ultricies ipsum fermentum, consectetur ipsum. Integer vestibulum a nunc noipsum. Integer vestibulum a nunc non facilisis.
+        </p>
+      </div>
+      <div class="col-sm-6 col-sm-pull-6 text-picture__picture">
+        <img src="../growing.jpg" alt="Image" class="img-responsive" />
+      </div>
+    </div>
+  </div>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdn.rawgit.com/VPenkov/okayNav/master/app/js/jquery.okayNav.js'></script>
+
+        <script src="../dist/js/index.js"></script>
+
+    
+    
+    
+  </body>
 </html>
