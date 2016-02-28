@@ -38,12 +38,17 @@
         width: 100vw;
 
 		}
+
+		.img-circle{
+			border-radius:50%;
+			border-style: solid;
+		}
   	</style>
 </head>
 <body>
 
 <!-- Carousel -->
-  <div id = "myCarousel" class = "carousel">
+  <div id = "myCarousel" class = "carousel" >
       <ol class = "carousel-indicators">
           <li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
           <li data-target = "#myCarousel" data-slide-to = "1"></li>
@@ -56,18 +61,21 @@
                   <img src = "../baby.jpg" alt="..." class = "img-responsive">
                   <div class = "carousel-caption">
                     <h1>Baby Basics</h1>
+										<p style = "font-size: 14px;"> It's parenting made easy <br> Learn more below </p>
                   </div>
             </div>
             <div class = "item">
                   <img src = "../babysteps.jpg" alt="..." class = "img-responsive">
                   <div class= "carousel-caption">
                     <h1>Baby Development</h1>
+										<p style = "font-size: 14px;"> Celebrate your child's milestones! <br> Learn more below </p>
                   </div>
             </div>
             <div class = "item">
                   <img src = "../sumimage.jpg" alt="..." class = "img-responsive">
                   <div class = "carousel-caption">
                     <h1>Baby Supplies</h1>
+										<p style = "font-size: 14px;"> Shop for all your child's needs <br> Learn more below </p>
                   </div>
             </div>
      </div>
@@ -78,58 +86,64 @@
      <a class = "carousel-control right" href = "#myCarousel" data-slide = "next">
         <span class = "icon-next"></span>
      </a>
+
   </div>
-<div class="countainer-full">
-		<div class="row">
-			<h1> Parenting Made Easy </h1>
-
-			<br>
-
-			<form class="col-lg-12">
-				<div class = "input-group" input-group-lg col-sm-offset-4 col-sm-4>
-					<input type="text" class="center-block form-control input-lg" title="Enter your child's age" placeholder="Enter age">
-					<span class="input-group-btn"><button class="btn btn-lg btn-primary" type="button">OK</button></span>
-				</div>
-			</form>
-		</div>
-</div>
-
-<br><br><br><br><br>
-
+<div class="countainer-full" style = "border: solid black;">
+	<div class="text-picture text-picture--gray-bg">
 <div class="container">
-
-	<hr>
-
-	<div class="row">
-		<div class="col-md-4">
-			<div class="panel panel-default">
-				<div class="panel-heading"><h3>Baby Basics.</h3></div>
-				<div class="panel-body">
-				</div>
-		  </div>
+	<div class="row row--flex">
+		<div class="col-sm-6 row--flex__col--center col-sm-push-6 text-picture__text">
+			<h2 style = "margin-top: 100px">Baby Basics</h2>
+			<p style=" margin-bottom: 100px">
+				Learn your ABC's for parenthoood from breastfeeding to changing diapers by clicking <a href="http://www.whattoexpect.com/first-year/landing-page.aspx">Here</a>
+			</p>
 		</div>
-		<div class="col-md-4">
-			<div class="panel panel-default">
-				<div class="panel-heading"><h3>Baby Basics.</h3></div>
-				<div class="panel-body">
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="panel panel-default">
-				<div class="panel-heading"><h3>Baby Basics.</h3></div>
-				<div class="panel-body">
-				</div>
-		  </div>
-		</div>
-
-		<div class = "row">
-				<div class="col-lg-12">
-				<br><br>
-					<p class="pull-right"><a href="">
-				<br><br>
-			 </div>
+		<div class="col-sm-6 col-sm-pull-6 text-picture__picture">
+			<img src="http://www.surebaby.com/wp-content/blogs.dir/23/files/baby-health-300x291.jpg" alt="Image" class="img-responsive" style="border-radius:50%; border-style:solid; border-width: 2px; height: 500px; weight: 500px" />
 		</div>
 	</div>
+</div>
+</div>
+
+<div class="countainer-full" style = "border: solid black;">
+	<div class="text-picture" style="background-color:#e0ebeb">
+<div class="container">
+	<div class="row row--flex">
+		<div class="col-sm-6 row--flex__col--center text-picture__text">
+			<h2>Baby Development</h2>
+			<p>
+				Your child's first words, first steps are all memories you don't want to miss. Learn to know how to not miss these priceless events by clicking <a href="http://www.whattoexpect.com/milestones/0-3-months/">Here</a>
+			</p>
+			</p>
+		</div>
+		<div class="col-sm-6 text-picture__picture">
+			<img src="../happybaby.jpg" alt="Image" class="img-responsive" style="border-radius:50%; border-style:solid; border-width: 2px;" />
+		</div>
+	</div>
+</div>
+</div>
+</div>
+
+<div class="text-picture text-picture--gray-bg" style = "border: solid black;">
+<div class="container">
+	<div class="row row--flex">
+		<div class="col-sm-6 row--flex__col--center col-sm-push-6 text-picture__text">
+			<h2 style = "margin-top: 100px">Baby Supplies</h2>
+			<p style=" margin-bottom: 100px">
+				We find only the best deals here at Baby Steps because we know raising a child isn't cheap. Find your deals by clicking <a href="http://www.buybuybaby.com/store/category/clearance-savings/30010/">Here</a>
+			</p>
+			</p>
+		</div>
+		<div class="col-sm-6 col-sm-pull-6 text-picture__picture">
+			<img src="http://cdn.shopify.com/s/files/1/0871/6158/products/2015-Hot-Newborn-Carters-Baby-Girl-Clothing-Set-Romper-Hat-Pants-3-pcs-Infant-Baby-Boys_large.jpg?v=1433983544" alt="Image" class="img-responsive" style="border-radius:50%; border-style:solid; border-width: 2px; height: 500px; weight: 500px"/>
+		</div>
+	</div>
+</div>
+</div>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdn.rawgit.com/VPenkov/okayNav/master/app/js/jquery.okayNav.js'></script>
+
+			<script src="../dist/js/index.js"></script>
+
 </body>
 </html>
