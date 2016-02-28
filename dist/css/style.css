@@ -258,7 +258,9 @@ text-picture {
         border-radius: 50%;
         width:12em;
         height:12em;
-        float:left;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;        
         clear:both;
         z-index: 0;
       }
@@ -267,4 +269,6 @@ text-picture {
         clear:both;
       }
 
-      #con
+      .header2{
+        text-align: center;
+      }
